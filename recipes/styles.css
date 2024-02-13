@@ -1,0 +1,69 @@
+body{
+    background-color: tomato;
+}
+ul, ol{
+    padding: 0;
+    margin: 0;
+}
+li
+{
+    padding: 0;
+    margin: 0;
+}
+ul.parent
+ {
+    display: inline-block;
+    list-style-type:none;
+    padding:10px;
+    margin:10px;
+    }
+ul.child
+{
+    display:block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li.inline
+{
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+li.parent
+{
+    padding: 10px;
+    margin: 10px;
+}
+li.child
+{
+    padding: 0;
+    margin: 0;
+}
+ul.bullet
+{
+    display: block;
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+div.image
+{
+    margin: 30px;
+    padding: 30px;
+}
+h3.IngredientsTxt
+{
+    margin: 30px;
+    padding: 30px;
+}
+.box
+{
+    width: 500px;
+    height: 230px;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 30px;
+    background-color: beige;
+    border-radius: 10px;
+}
